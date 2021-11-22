@@ -29,7 +29,7 @@ app.use(UserRoutes);
 const comicsRoutes = require("./routes/comics");
 app.use(comicsRoutes);
 
-const bookmarksRoutes = require("./routes/Bookmarks");
+const bookmarksRoutes = require("./routes/bookmarks");
 app.use(bookmarksRoutes);
 
 const charactersRoutes = require("./routes/characters");
